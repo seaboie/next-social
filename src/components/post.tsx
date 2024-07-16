@@ -24,15 +24,17 @@ export default function Post() {
       </div>
       {/* DESC  */}
       <div className="flex flex-col gap-4">
-        <div className="w-full min-h-96 relative">
+        {/* <div className="w-full min-h-96 relative"> */}
+        <div className="relative w-full aspect-video" >
           <Image
             src={
-              "https://images.pexels.com/photos/25772520/pexels-photo-25772520.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27088432/pexels-photo-27088432.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             fill
             alt=""
             priority
-            className="object-cover rounded-md"
+            className=" object-cover rounded-md"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <p>

@@ -8,7 +8,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -21,7 +21,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -34,7 +34,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -47,7 +47,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -60,7 +60,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -73,7 +73,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -86,7 +86,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
@@ -99,7 +99,7 @@ export default function Stories() {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src={
-              "https://images.pexels.com/photos/27075465/pexels-photo-27075465.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              "https://images.pexels.com/photos/27041356/pexels-photo-27041356.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             }
             width={80}
             height={80}
