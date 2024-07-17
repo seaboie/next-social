@@ -1,117 +1,63 @@
-import Image from "next/image";
+import ImageIconSmall from "@/app/layout/image/image_icon_small";
+import ImageProfileMedium from "@/app/layout/image/image_profile_medium";
+import LayoutCard from "@/app/layout/layout/layout_card";
+import LayoutImageProfileTitle from "@/app/layout/layout/layout_image_profile_title";
+import LayoutTwoColumnBetween from "@/app/layout/layout/layout_two_column_between";
+import TextBaseHead from "@/app/layout/text/text_base_head";
+import TextSmallHead from "@/app/layout/text/text_small_head";
 import Link from "next/link";
 import React from "react";
 
 export default function FriendRequests() {
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4">
+    <LayoutCard>
       {/* TOP  */}
-      <div className="flex items-center justify-between font-medium">
-        <span className="text-lg font-bold text-gray-500">Friend Requests.</span>
+      <LayoutTwoColumnBetween>
+        <TextBaseHead text="Friend Requests." />
         <Link href={`/`} className="text-blue-500 text-xs">
           See all
         </Link>
-      </div>
+      </LayoutTwoColumnBetween>
       {/* USER  */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Image
-            src={
-              "https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            width={0}
-            height={0}
+      <LayoutTwoColumnBetween>
+        <LayoutImageProfileTitle>
+          <ImageProfileMedium
+            url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             alt=""
-            priority
-            className="w-10 h-10 rounded-full object-cover"
           />
-          <span className="font-semibold">Ernest Buchanan</span>
-        </div>
+          <TextSmallHead text="Dora Wong" />
+        </LayoutImageProfileTitle>
         <div className="flex justify-end gap-3">
-          <Image
-               src={"/accept.png"}
-               width={0}
-               height={0}
-               alt=''
-               priority
-               className='w-4 h-4 cursor-pointer'
-             />
-             <Image
-                  src={"/reject.png"}
-                  width={0}
-                  height={0}
-                  alt=''
-                  priority
-                  className='w-4 h-4 cursor-pointer'
-                />
+          <ImageIconSmall url="/accept.png" />
+          <ImageIconSmall url="/reject.png" />
+        </div>
+      </LayoutTwoColumnBetween>
+      <div className="flex items-center justify-between">
+        <LayoutImageProfileTitle>
+          <ImageProfileMedium
+            url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            alt=""
+          />
+          <TextSmallHead text="Howard Harrison" />
+        </LayoutImageProfileTitle>
+        <div className="flex justify-end gap-3">
+          <ImageIconSmall url="/accept.png" />
+          <ImageIconSmall url="/reject.png" />
         </div>
       </div>
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Image
-            src={
-              "https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            width={0}
-            height={0}
+        <LayoutImageProfileTitle>
+          <ImageProfileMedium
+            url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             alt=""
-            priority
-            className="w-10 h-10 rounded-full object-cover"
           />
-          <span className="font-semibold">Ernest Buchanan</span>
-        </div>
-        <div className="flex justify-end gap-3">
-          <Image
-               src={"/accept.png"}
-               width={0}
-               height={0}
-               alt=''
-               priority
-               className='w-4 h-4 cursor-pointer'
-             />
-             <Image
-                  src={"/reject.png"}
-                  width={0}
-                  height={0}
-                  alt=''
-                  priority
-                  className='w-4 h-4 cursor-pointer'
-                />
+          <TextSmallHead text="Alfred Griffith" />
+        </LayoutImageProfileTitle>
+        <div className="flex gap-3">
+          <ImageIconSmall url="/accept.png" />
+          <ImageIconSmall url="/reject.png" />
         </div>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Image
-            src={
-              "https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            width={0}
-            height={0}
-            alt=""
-            priority
-            className="w-10 h-10 rounded-full object-cover"
-          />
-          <span className="font-semibold">Ernest Buchanan</span>
-        </div>
-        <div className="flex justify-end gap-3">
-          <Image
-               src={"/accept.png"}
-               width={0}
-               height={0}
-               alt=''
-               priority
-               className='w-4 h-4 cursor-pointer'
-             />
-             <Image
-                  src={"/reject.png"}
-                  width={0}
-                  height={0}
-                  alt=''
-                  priority
-                  className='w-4 h-4 cursor-pointer'
-                />
-        </div>
-      </div>
-    </div>
+    </LayoutCard>
   );
 }
