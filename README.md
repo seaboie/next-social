@@ -50,7 +50,9 @@ UI For Tailwind CSS
 - Define Aspect ratio  
 > Use `fill`  
 >> - ต้องมี Parent `div` ครอบ `w-full relative aspect-video`  
->> - ต้องกำหนด `sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"`
+>> - ต้องกำหนด `sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"`  
+
+> 1. แนวนอน Horizontal  
 
 ```dart
 
@@ -68,6 +70,30 @@ UI For Tailwind CSS
 </div>
 
 ```  
+---  
+> 2. แนวตั้ง Vertical  
+- Parent `div` use `justify-evenly`
+- Define: Width , `w-1/5`
+- Use ( `style={{aspectRatio: 1 / 1.4}}` )  
 
-- [1:31:20](https://www.youtube.com/watch?v=o080tU3sd0k&t=104s)  
+```dart
+<div className="flex justify-evenly gap-2 flex-wrap">
+    {/* <div className="relative w-1/5 h-24"> */}
+    <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
+        <Image
+        src={
+            "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+        }
+        fill
+        alt=""
+        priority
+        className="object-cover rounded-md"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+    </div>
+</div>
+```  
+
+
+- [1:47:20](https://www.youtube.com/watch?v=o080tU3sd0k&t=104s)  
 
