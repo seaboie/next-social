@@ -1,3 +1,4 @@
+import ImageContentFillVertical from "@/app/layout/image/image_content_fill_vertical";
 import LayoutCard from "@/app/layout/layout/layout_card";
 import LayoutTwoColumnBetween from "@/app/layout/layout/layout_two_column_between";
 import TextBaseHead from "@/app/layout/text/text_base_head";
@@ -19,109 +20,45 @@ export default function UserMediaCard({ userId }: { userId: string }) {
       <div className="flex justify-evenly gap-2 flex-wrap">
         {/* 1 */}
         {/* <div className="relative w-1/5 h-24"> */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/14524370/pexels-photo-14524370.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 2 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/27011329/pexels-photo-27011329.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 3 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/19342868/pexels-photo-19342868.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 4 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/7301825/pexels-photo-7301825.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 5 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 6 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/26929075/pexels-photo-26929075.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 7 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/27114459/pexels-photo-27114459.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
         {/* 8 */}
-        <div className="relative w-1/5" style={{ aspectRatio: 1 / 1.4 }}>
-          <Image
-            src={
-              "https://images.pexels.com/photos/16741638/pexels-photo-16741638.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            }
-            fill
-            alt=""
-            priority
-            className="object-cover rounded-md"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
+        <ImageContentFillVertical
+          url="https://images.pexels.com/photos/26245942/pexels-photo-26245942.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+          alt="somethings"
+        />
       </div>
     </LayoutCard>
   );

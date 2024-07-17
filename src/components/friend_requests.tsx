@@ -23,39 +23,39 @@ export default function FriendRequests() {
         <LayoutImageProfileTitle>
           <ImageProfileMedium
             url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            alt=""
+            alt="somethings"
           />
           <TextSmallHead text="Dora Wong" />
         </LayoutImageProfileTitle>
         <div className="flex justify-end gap-3">
-          <ImageIconSmall url="/accept.png" />
-          <ImageIconSmall url="/reject.png" />
+          <ImageIconSmall url="/accept.png" alt="somethings"/>
+          <ImageIconSmall url="/reject.png" alt="somethings"/>
         </div>
       </LayoutTwoColumnBetween>
       <div className="flex items-center justify-between">
         <LayoutImageProfileTitle>
           <ImageProfileMedium
             url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            alt=""
+            alt="somethings"
           />
           <TextSmallHead text="Howard Harrison" />
         </LayoutImageProfileTitle>
         <div className="flex justify-end gap-3">
-          <ImageIconSmall url="/accept.png" />
-          <ImageIconSmall url="/reject.png" />
+          <ImageIconSmall url="/accept.png" alt="somethins"/>
+          <ImageIconSmall url="/reject.png" alt="somethins"/>
         </div>
       </div>
       <div className="flex items-center justify-between">
         <LayoutImageProfileTitle>
           <ImageProfileMedium
             url="https://images.pexels.com/photos/26871563/pexels-photo-26871563.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
-            alt=""
+            alt="somethings"
           />
           <TextSmallHead text="Alfred Griffith" />
         </LayoutImageProfileTitle>
         <div className="flex gap-3">
-          <ImageIconSmall url="/accept.png" />
-          <ImageIconSmall url="/reject.png" />
+          <ImageIconSmall url="/accept.png" alt="somethings"/>
+          <ImageIconSmall url="/reject.png" alt="somethings"/>
         </div>
       </div>
     </LayoutCard>
