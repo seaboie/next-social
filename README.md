@@ -1,6 +1,8 @@
 # Next-Social
 
-## [Next.js 15 RC](https://nextjs.org/blog/next-15-rc)
+## [Next.js 15 RC](https://nextjs.org/blog/next-15-rc)  
+
+## [Document Image nextjs](https://nextjs.org/docs/pages/api-reference/components/image)  
 
 ## Resource
 
@@ -66,4 +68,6 @@ UI For Tailwind CSS
 </div>
 
 ```  
+
+- [1:31:20](https://www.youtube.com/watch?v=o080tU3sd0k&t=104s)  
 

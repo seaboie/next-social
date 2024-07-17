@@ -7,7 +7,7 @@ export default function BirthDay() {
     <div className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4">
       {/* TOP  */}
       <div className="flex items-center justify-between font-medium">
-        <span className="text-gray-500">Birthdays</span>
+        <span className="text-lg font-bold text-gray-500">Birthdays</span>
       </div>
       {/* USER  */}
       <div className="flex items-center justify-between">
@@ -41,8 +41,12 @@ export default function BirthDay() {
           className=""
         />
         <Link href={`/`} className="flex flex-col gap-1 text-xs">
-        <span className="text-gray-700 font-semibold">Upcoming Birthdays.</span>
-        <span className="text-gray-500">Lorem ipsum dolor sit consectetur</span>
+          <span className="text-gray-700 font-semibold">
+            Upcoming Birthdays.
+          </span>
+          <span className="text-gray-500">
+            Lorem ipsum dolor sit consectetur
+          </span>
         </Link>
       </div>
     </div>
