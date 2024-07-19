@@ -50,7 +50,7 @@ export default function Ad({ size }: { size: "sm" | "md" | "lg" }) {
         {/* DESCRIPTION  */}
         <p className={`${size === "sm" ? "text-xs" : "text-sm"}`}>
           {size === "sm"
-            ? "SM Lorem ipsum dolor sit amet maiores!"
+            ? "SM Lorem ipsum dolor sit amet maiores! dolor sit amet Molestiae,LG"
             : size === "md"
             ? "MD Lorem ipsum dolor sit amet Molestiae,LG Lorem ipsum dolor sit amet consectetur maiores! sit amet consectetur adipisicing elit. Molestiae, maiores!"
             : "LG Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, maiores! MD Lorem ipsum dolor sit amet Molestiae,LG Lorem ipsum dolor sit amet consectetur maiores! sit amet consectetur adipisicing elit. Molestiae, maiores"}
