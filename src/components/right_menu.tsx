@@ -4,6 +4,7 @@ import BirthDay from "./birth_day";
 import Ad from "./ad";
 import UserInfoCard from "./user_info_card";
 import UserMediaCard from "./user_media_card";
+import ProfileCard from "./profile_card";
 
 export default function RightMenu({ userId }: { userId?: string }) {
   return (
@@ -17,6 +18,7 @@ export default function RightMenu({ userId }: { userId?: string }) {
       <FriendRequests />
       <BirthDay />
       <Ad size="md" />
+      <ProfileCard />
     </div>
   );
 }
