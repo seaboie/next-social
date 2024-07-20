@@ -6,6 +6,7 @@ import LayoutImageProfileTitleMedium from "@/app/layout/layout/layout_image_prof
 import ImageProfileSmall from "@/app/layout/image/image_profile_small";
 import TextSmallHead from "@/app/layout/text/text_small_head";
 import Ad from "./ad";
+import ProfileCardMediumWidget from "@/app/layout/widget/profile_card_medium_widget";
 
 export default function LeftMenu({ type }: { type: "home" | "profile" }) {
   return (

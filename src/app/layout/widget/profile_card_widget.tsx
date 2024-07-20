@@ -39,15 +39,15 @@ export default function ProfileCardWidget({
           <div className="w-full h-1/4"></div>
           <Image
             src={profileImage}
-            width={0}
-            height={0}
+            width={200}
+            height={200}
             alt={profileAlt}
             priority
             className="absolute  w-1/4  rounded-full object-cover m-auto left-0 right-0 ring-2 ring-white z-20 -bottom-1"
             style={{ aspectRatio: 1 / 1 }}
           />
         </div>
-        <div className="h-1/2 flex items-center flex-col justify-evenly ">
+        <div className="h-1/2 flex items-center flex-col justify-around ">
           <TextExtraLargeSemiBold text={name} />
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1">

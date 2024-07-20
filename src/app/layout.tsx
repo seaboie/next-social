@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className=" bg-white px-4 md:px-28 lg:px-32 xl:px-30 2xl:m-64">
             <Navbar />
           </div>
-          <div className=" bg-slate-100 px-2 md:px-2 lg:px-4 xl:px-30 2xl:m-64">
+          <div className=" bg-slate-100 px-4 md:px-28 lg:px-12 xl:px-30 2xl:m-64">
             {children}
           </div>
         </body>

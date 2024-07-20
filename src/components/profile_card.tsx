@@ -1,11 +1,4 @@
-import ButtonDefault from "@/app/layout/button/button_default";
-import ImageContentFill from "@/app/layout/image/image_content_fill";
-import LayoutCard from "@/app/layout/layout/layout_card";
-import TextExtraLargeSemiBold from "@/app/layout/text/text_extra_large_semi_bold";
-import TextExtraSmallHead from "@/app/layout/text/text_extra_small_head";
-import TextSmallHead from "@/app/layout/text/text_small_head";
 import ProfileCardWidget from "@/app/layout/widget/profile_card_widget";
-import Image from "next/image";
 import React from "react";
 
 export default function ProfileCard() {
